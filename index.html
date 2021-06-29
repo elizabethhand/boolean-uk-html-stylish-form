@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&family=Noto+Sans+JP:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stylish Form</title>
+  </head>
+  <body>
+    <div class="card">
+      <div>
+        <h1>Say hello!</h1>
+      </div>
+      <form>
+        <div class="unamecontainer">
+          <label for="uname">Username</label>
+          <input
+          minlength="8"
+            type="text"
+            placeholder="Enter your username"
+            name="uname"
+            required
+          />
+        </div>
+        <div class="emailcontainer">
+          <label for="pword">Email</label>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name="password"
+            required
+          /></div>
+          <div class="servicescontainer">
+          <label type="search"for="services">Needed services</label>
+          <select id="services" name="services">
+            <option value="chooseservice">Choose services</option>
+            <option value="serviceone">Service one</option>
+            <option value="servicetwo">Service two</option>
+          </select>
+        </div>
+
+          <div class="budgetcontainer">
+          <label for="budget">Budget</label>
+          <select id="budget" name="budget">
+            <option value="budget">Budget</option>
+            <option value="budgetone">100-200</option>
+            <option value="budgettwo">200-300</option>
+          </div>
+          </select>
+        
+
+          <div class="messagecontainer">
+            <label for"subject"> Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something here..." style="height:90px" ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+
+        
+
+        
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

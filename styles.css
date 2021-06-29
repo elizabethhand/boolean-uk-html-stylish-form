@@ -1,0 +1,100 @@
+body {
+  background: rgb(242, 4, 163);
+  background-image: linear-gradient(#e68d29, #e67ca3);
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 12px;
+}
+
+.card {
+  background: white;
+  border: solid;
+  padding: 8px;
+  /*   
+  border: solid;
+  border-radius: 10px;
+
+  display: grid;
+  place-items: center;
+  grid-template-rows: 60px 20px 20px;
+  width: 250px;
+  height: 400px;
+  */
+
+  /* display: grid; */
+  /* place-items: center; */
+  /* grid-template-rows: 60px 20px 20px; */
+  /* grid-template-rows: 60px 1fr; */
+
+  width: 250px;
+  height: 400px;
+}
+
+label {
+  display: block;
+}
+
+input[type="submit"] {
+  background: linear-gradient(#e68d29, #e67ca3);
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 240px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+select,
+textarea {
+  width: 230px;
+  height: 25px;
+
+  border: none;
+  border-bottom: solid 1px;
+}
+
+input:valid {
+  border: solid 3px green;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border: solid 3px red;
+  border-radius: 5px;
+}
+
+select,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  font-size: 10px;
+}
+
+.row {
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.unamecontainer,
+.pwordcontainer,
+.emailcontainer,
+.servicescontainer,
+.budgetcontainer,
+.messagecontainer {
+  opacity: 0.5;
+  padding: 3px;
+}
